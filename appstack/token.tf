@@ -11,8 +11,8 @@ locals {
       "namespace": "system"
     }
     "spec": {
-      "type": "JWT"
-      "site_name": "mw-site-1"
+      "type": "JWT",
+      "site_name": var.f5xc_cluster_name
     }
   })
 }
